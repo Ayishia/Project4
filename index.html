@@ -1,0 +1,108 @@
+<html>
+  <title></title>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Hello!</title>
+
+    <link rel="stylesheet" href="/style.css" />
+    <div id="effect"></div>
+    <h2>Current Time:</h2>
+
+    <h2 id="demo"></h2>
+
+    <script>
+      var myVar = setInterval(myTimer, 1000);
+
+      function myTimer() {
+        var d = new Date();
+        document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+      }
+    </script>
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img
+          src="https://cdn.glitch.com/404951f7-15cf-467f-a0d7-198da179d8de%2FUntitled-1.png?v=1608007770834"
+          style="width:100%"
+        />
+      </div>
+
+      <div class="mySlides fade">
+        <img
+          src="https://cdn.glitch.com/404951f7-15cf-467f-a0d7-198da179d8de%2FUntitled-5.png?v=1608007771654"
+          style="width:100%"
+        />
+      </div>
+
+      <div class="mySlides fade">
+        <img
+          src="https://cdn.glitch.com/404951f7-15cf-467f-a0d7-198da179d8de%2FUntitled-3.png?v=1608007773431"
+          style="width:100%"
+        />
+      </div>
+
+      <div class="mySlides fade">
+        <img
+          src="https://cdn.glitch.com/404951f7-15cf-467f-a0d7-198da179d8de%2FUntitled-7.png?v=1608007773467"
+          style="width:100%"
+        />
+      </div>
+
+      <div class="mySlides fade">
+        <img
+          src="https://cdn.glitch.com/404951f7-15cf-467f-a0d7-198da179d8de%2FUntitled-2.png?v=1608007773608"
+          style="width:100%"
+        />
+      </div>
+
+      <div class="mySlides fade">
+        <img
+          src="https://cdn.glitch.com/404951f7-15cf-467f-a0d7-198da179d8de%2FUntitled-8.png?v=1608007773982"
+          style="width:100%"
+        />
+      </div>
+
+      <div class="mySlides fade">
+        <img
+          src="https://cdn.glitch.com/404951f7-15cf-467f-a0d7-198da179d8de%2FUntitled-4.png?v=1608007774715"
+          style="width:100%"
+        />
+      </div>
+
+      <div class="mySlides fade">
+        <img
+          src="https://cdn.glitch.com/404951f7-15cf-467f-a0d7-198da179d8de%2FUntitled-6.png?v=1608007775088"
+          style="width:100%"
+        />
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br />
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+      <span class="dot" onclick="currentSlide(7)"></span>
+      <span class="dot" onclick="currentSlide(8)"></span>
+    </div>
+  </body>
+  <footer>
+    All images were created by Ayishia Adetayo
+  </footer>
+</html>
